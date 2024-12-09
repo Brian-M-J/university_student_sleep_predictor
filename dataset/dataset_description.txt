@@ -1,0 +1,46 @@
+Kaggle URL: https://www.kaggle.com/datasets/arsalanjamal002/student-sleep-patterns/
+
+About Dataset
+
+Student Sleep Patterns Dataset
+This dataset explores the sleep patterns of university students, aiming to identify correlations between sleep duration, sleep quality, and various lifestyle factors. The data is synthetic, meaning it was artificially generated and does not represent real individuals. However, it follows realistic distributions and relationships to provide a useful basis for analysis and modeling.
+
+Data Source: Synthetically generated.
+
+Data Description:
+The dataset contains 500 rows (students) and 14 columns. Each row represents a unique student, and the columns describe their attributes and sleep-related information.
+
+Columns:
+- Student_ID: Unique identifier for each student (integer).
+- Age: Age of the student in years (integer).
+- Gender: Gender of the student (categorical: 'Male', 'Female', 'Other').
+- University_Year: The student's current year of university (categorical: '1st Year', '2nd Year', '3rd Year', '4th Year').
+- Sleep_Duration: Total hours of sleep per night (float).
+- Study_Hours: Average number of hours spent studying per day (float).
+- Screen_Time: Average number of hours spent on screens (excluding studying) per day (float).
+- Caffeine_Intake: Average number of caffeinated beverages consumed per day (integer).
+- Physical_Activity: Average minutes spent on physical activity per day (integer).
+- Sleep_Quality: Subjective rating of sleep quality on a scale of 1 to 10 (1 being the worst, 10 being the best) (integer).
+- Weekday_Sleep_Start: Time the student typically goes to sleep on weekdays (float, in 24-hour format, e.g., 23.00 is 11 PM).
+- Weekend_Sleep_Start: Time the student typically goes to sleep on weekends (float, in 24-hour format).
+- Weekday_Sleep_End: Time the student typically wakes up on weekdays (float, in 24-hour format).
+- Weekend_Sleep_End: Time the student typically wakes up on weekends (float, in 24-hour format).
+
+Potential Research Questions:
+This dataset can be used to investigate several research questions, including:
+- What is the relationship between sleep duration and academic performance (proxied by study hours)?
+- How does screen time affect sleep quality and duration?
+- Is there a correlation between caffeine intake and sleep patterns?
+- How does physical activity influence sleep quality?
+- Are there significant differences in sleep patterns between genders or university years?
+- Can a predictive model be built to estimate sleep quality based on lifestyle factors?
+
+Limitations:
+- Synthetic Data: The data is synthetic and may not perfectly reflect the complexities of real-world student sleep patterns.
+- Subjective Measures: Sleep quality is a subjective measure, and the rating scale may not capture the full spectrum of sleep experiences.
+- Limited Variables: The dataset includes a limited number of variables, and other factors (e.g., stress levels, diet, sleep disorders) could influence sleep patterns.
+
+Data Usage:
+This dataset is intended for educational and research purposes. Users are free to use it for analysis, modeling, and visualization, provided they acknowledge the synthetic nature of the data and cite this documentation appropriately.
+
+File Format: CSV (Comma Separated Values)
